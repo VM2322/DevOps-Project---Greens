@@ -28,5 +28,17 @@
             <version>${junit-jupiter-params.version}</version>
             <scope>test</scope>
         </dependency>
+             
     </dependencies>
+  </build>
+	 <distributionManagement>
+        <repository>
+            <id>maven-releases</id>
+            <url>http://13.233.161.68:8081/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>maven-snapshots</id>
+            <url>http://13.233.161.68:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
